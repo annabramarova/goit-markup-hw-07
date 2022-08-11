@@ -27,7 +27,7 @@
 body {
     color: getColor('primary-text');
     background-color: getColor('white');
-    font-family: "Roboto", sans-serif;
+    font-family: $font-main;
     letter-spacing: 0.02em;
 }
 
