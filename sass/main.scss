@@ -1,0 +1,51 @@
+@import './utils/variables';
+@import './utils/visualy-hidden';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './base/normalize';
+@import './components/common';
+@import './components/page-header/page-header';
+@import './components/logo';
+@import './components/page-header/site-nav';
+@import './components/page-header/contacts';
+@import './components/hero-section';
+@import './components/features-section';
+@import './components/works-section';
+@import './components/team-section';
+@import './components/clients-section';
+@import './components/portfolio-menu';
+@import './components/portfolio-grid';
+@import './components/page-footer/page-footer';
+@import './components/page-footer/footer-address';
+@import './components/page-footer/footer-socials';
+@import './components/page-footer/footer-form';
+@import './components/modal-shown';
+@import './components/form-modal';
+
+
+
+body {
+    color: getColor('primary-text');
+    background-color: getColor('white');
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: currentColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
