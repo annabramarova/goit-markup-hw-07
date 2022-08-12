@@ -22,7 +22,7 @@
     border-radius: 50%;
     background-color: getColor('footer-icons');
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition-base(background-color);
 
     &:hover,
     &:focus {

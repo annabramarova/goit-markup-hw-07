@@ -1,8 +1,14 @@
+// utils
 @import './utils/variables';
 @import './utils/visualy-hidden';
 @import './utils/placeholders';
 @import './utils/mixins';
+
+// base styles
 @import './base/normalize';
+@import './base/reset';
+
+// components
 @import './components/common';
 @import './components/page-header/page-header';
 @import './components/logo';
@@ -21,31 +27,3 @@
 @import './components/page-footer/footer-form';
 @import './components/modal-shown';
 @import './components/form-modal';
-
-
-
-body {
-    color: getColor('primary-text');
-    background-color: getColor('white');
-    font-family: $font-main;
-    letter-spacing: 0.02em;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-a {
-    color: currentColor;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
